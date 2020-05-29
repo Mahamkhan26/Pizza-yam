@@ -1,0 +1,93 @@
+body{
+background-image: url("https://pluspng.com/img-png/spotlight-png-hd-free-stage-1898010-floor-png-hd-1920.png");
+width: 100%;
+height: 100%;
+}
+.navbar{
+    background-color: #D32F2F!important;
+    position:  fixed !important;
+    width: 100% !important;
+    z-index: 100 !important;
+    
+
+}
+.nav-link{
+    font-weight: bold;
+}
+.register{
+    width:auto;
+    margin: 50px 550px 200px;
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    text-indent: 15px;
+    padding: 12px;
+    border: 5px white solid;
+}
+.head5{
+    color:#D32F2F;
+    text-decoration: underline;
+    padding-top: 180px;
+    text-align: center;
+}
+.fa-map-marker,.fa-phone{
+    margin-right: 10px;
+}
+.footer-items h2{
+    color:#D32F2F;
+    padding-left: 50px;
+    padding-top: 2%;
+}
+.footer-items h4{
+    color: #D32F2F;
+    margin-right: 20px;
+    margin-left: 20px;
+    padding-top: 30px;
+}
+.footer-items p{
+    margin-left: 25%;
+    margin-right: 15%;
+    padding-top: 30px;
+    color: #fff;
+
+    
+}
+.footer-items ul li{
+    color: #fff;
+    list-style: none;
+}
+.footer{
+    background-color: black;
+}
+
+.footer-bottom{
+    padding: 10px ;
+    background:#D32F2F;
+    color: whitesmoke;
+    text-indent: 0%;
+}
+.heading{
+    color: tomato;
+}
+.inner-footer{
+    display: flex;
+    
+}
+button{
+    width: 90%;
+    color: #D32F2F;
+    font-weight: bold;
+}
+@media screen and (max-width:600px){
+    .head5{
+        padding-left: 5%;
+    }
+    .register{
+        margin:0;
+    }
+    .inner-footer{
+        display: block;
+        flex-wrap:wrap;
+        width: 100%;
+        height: auto;
+}
